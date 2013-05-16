@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+  <remove-project name="CyanogenMod/android_packages_apps_Trebuchet" />
+    <project path="packages/apps/Trebuchet" name="TeamHellfire/android_packages_apps_Trebuchet" remote="github" revision="hf-10.1" />
+
+<remove-project name="CyanogenMod/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="TeamHellfire/android_packages_apps_Settings" remote="github" revision="hf-10.1" />
+
+<remove-project name="CyanogenMod/android_frameworks_base" />
+    <project path="frameworks/base" name="TeamHellfire/android_frameworks_base" remote="github" revision="hf-10.1" />
+
+</manifest>
